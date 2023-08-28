@@ -19,11 +19,11 @@
     "orta.vscode-jest",
     "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker",
-		"ms-vscode.wordcount"
+    "ms-vscode.wordcount"
   ],
   "forwardPorts": [3000],
   "containerUser": "vscode",
-  "postCreateCommand": "npm install",
+  "postCreateCommand": "yarn install",
   "waitFor": "postCreateCommand",
   "features": {
     "node": {
